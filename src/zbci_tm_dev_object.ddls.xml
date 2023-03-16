@@ -6,7 +6,6 @@
     <DDLNAME>ZBCI_TM_DEV_OBJECT</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
     <DDTEXT>Development Object</DDTEXT>
-    <SOURCE_TYPE>V</SOURCE_TYPE>
    </DDLS>
   </asx:values>
  </asx:abap>

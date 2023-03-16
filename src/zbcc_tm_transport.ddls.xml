@@ -6,7 +6,6 @@
     <DDLNAME>ZBCC_TM_TRANSPORT</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
     <DDTEXT>Transport (Consumption)</DDTEXT>
-    <SOURCE_TYPE>V</SOURCE_TYPE>
    </DDLS>
   </asx:values>
  </asx:abap>

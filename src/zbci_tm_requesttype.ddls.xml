@@ -6,7 +6,6 @@
     <DDLNAME>ZBCI_TM_REQUESTTYPE</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
     <DDTEXT>Request Type</DDTEXT>
-    <SOURCE_TYPE>V</SOURCE_TYPE>
    </DDLS>
   </asx:values>
  </asx:abap>

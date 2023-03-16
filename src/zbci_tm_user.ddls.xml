@@ -6,7 +6,6 @@
     <DDLNAME>ZBCI_TM_USER</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
     <DDTEXT>User</DDTEXT>
-    <SOURCE_TYPE>V</SOURCE_TYPE>
    </DDLS>
   </asx:values>
  </asx:abap>
