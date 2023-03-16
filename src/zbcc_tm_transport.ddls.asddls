@@ -1,11 +1,11 @@
-@AbapCatalog.sqlViewName: 'zbcctmtransport'
-@AbapCatalog.compiler.CompareFilter: true
+@AbapCatalog.sqlViewName: 'ZBCCTMTRANSPORT'
+@AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
-@ClientDependent: true
+
 @EndUserText.label: 'Transport (Consumption)'
 define view zbcc_tm_transport as select from zbci_tm_transport {
-    RequestID,
+    key RequestID,
     RequestType,
     _RequestType.Text as RequstTypeName,
     RequestStatus,

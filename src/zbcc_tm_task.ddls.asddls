@@ -1,5 +1,5 @@
-@AbapCatalog.sqlViewName: 'zbcctmtask'
-@AbapCatalog.compiler.CompareFilter: true
+@AbapCatalog.sqlViewName: 'ZBCCTMTASK'
+@AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Task (Consumption)'

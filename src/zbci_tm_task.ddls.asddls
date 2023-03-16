@@ -1,5 +1,5 @@
 @AbapCatalog.sqlViewName: 'ZBCITMTASK'
-@AbapCatalog.compiler.CompareFilter: true
+@AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Dev Task'
@@ -8,7 +8,7 @@ association [0..1] to zbci_tm_transport as _Request on $projection.RequestID = _
 association [0..1] to zbci_tm_user as _OwnerUser on $projection.OwnedBy = _OwnerUser.UserID
 association [1] to zbci_tm_requesttype as _TaskType on $projection.TaskType = _TaskType.RequestType
 association [1] to zbci_tm_requeststatus as _TaskStatus on $projection.TaskSTatus = _TaskStatus.RequestStatus
-association [0..*] to zbci_tm_dev_object as _DevObject on $projection.TaskID = _DevObject.trkorr
+association [0..*] to zbci_tm_dev_object as _DevObject on $projection.TaskID = _DevObject.RequestID
 {
     key trkorr as TaskID,
     strkorr   as RequestID,

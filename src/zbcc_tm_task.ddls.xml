@@ -6,6 +6,7 @@
     <DDLNAME>ZBCC_TM_TASK</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
     <DDTEXT>Task (Consumption)</DDTEXT>
+    <SOURCE_TYPE>V</SOURCE_TYPE>
    </DDLS>
   </asx:values>
  </asx:abap>
